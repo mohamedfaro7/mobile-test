@@ -1,0 +1,42 @@
+{
+  "name": "fitness_app",
+  "short_name": "FitLife",
+  "description": "تطبيق متكامل للياقة البدنية والتغذية مع اشتراكات وتوصيل وجبات",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F7FA",
+  "theme_color": "#2E7D32",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "fitness", "lifestyle"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "تسجيل وجبة",
+      "short_name": "وجبة",
+      "description": "إضافة وجبة جديدة",
+      "url": "/nutrition/add-meal",
+      "icons": [{ "src": "icons/meal.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "بدء تمرين",
+      "short_name": "تمرين",
+      "description": "بدء تمرين جديد",
+      "url": "/workout/start",
+      "icons": [{ "src": "icons/workout.png", "sizes": "192x192" }]
+    }
+  ]
+}
